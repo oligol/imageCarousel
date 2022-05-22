@@ -1,3 +1,46 @@
+.container {
+    border: 1px solid black;
+    width: 95%;
+    height: 90vh;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+
+#prev {
+    position: absolute;
+    color: white;
+    top: 43%;
+    left: 0;
+    cursor: pointer;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.6 ease;
+    border-radius: 3px;
+    user-select: none;
+}
+
+#next {
+    position: absolute;
+    color: white;
+    top: 43%;
+    right: 0;
+    cursor: pointer;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.6 ease;
+    border-radius: 3px;
+    user-select: none;
+}
+#prev:hover, #next:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
 .dots {
     text-align: center;
     margin: 2%;
